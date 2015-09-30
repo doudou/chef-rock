@@ -1,0 +1,10 @@
+name             'rock'
+maintainer       'Sylvain Joyeux'
+maintainer_email 'bir.sylvain@gmail.com'
+license          'BSD'
+description      'Cookbook to build and install Rock'
+version          '0.1.0'
+
+supports 'ubuntu'
+supports 'linuxmint'
+supports 'debian'

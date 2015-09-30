@@ -1,0 +1,7 @@
+require 'autoproj/gitorious'
+Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
+Autoproj.gitorious_server_configuration('GITHUB', 'github.com', http_url: "<%= @github_url %>")
+Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
+Autoproj.env_add_path 'PKG_CONFIG_PATH', File.join(Autobuild.prefix, 'share', 'pkgconfig')
+
+
